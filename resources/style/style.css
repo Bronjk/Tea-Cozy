@@ -1,0 +1,156 @@
+/*Universal Styles*/
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+ul {
+    list-style: none;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Header */
+
+header {
+    display: fixed;
+    z-index: 10;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+}
+
+header .bar {
+    display: flex;
+    align-items: center;
+    height: 3.14rem;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+header img {
+    Height: 2.27rem;
+    padding: 10px;
+    float: left;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav li {
+    padding: .5rem;
+    width: auto;
+    text-decoration: underline;
+}
+
+nav a {
+    color: seashell;
+}
+
+/* Banner */
+
+.banner {
+    height: 31.81rem;
+    margin: 0 3%;
+    background-image: url(../images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.band {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: black;
+}
+
+/* Products */
+
+.products {
+    margin-top: 4rem;
+}
+
+.product-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    margin: auto;
+    width: 85%;
+}
+
+.product-container {
+    flex: 1;
+    max-width: 300px;
+    margin: 0 .5rem;
+  }
+  
+.product-container .image-container {
+    width: 100%; 
+    overflow: hidden;
+  }
+
+.product-container img {
+    Width: 300px;
+    height: 200px;
+    display: block;
+    margin: auto;
+  }
+  
+.product-container .content {
+    font-weight: bold;
+    margin: .1rem;
+  }
+
+ /* Locations */ 
+
+ .locations {
+    height: 22.73rem;
+    margin: 0 3%;
+    background-image: url(../images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    text-align: center;
+ }
+
+ .locations h2 {
+    padding-top: 3rem;
+    font-weight: bold;
+ }
+
+ .location-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .location-container {
+    background-color: black;
+    width: 13.64rem;
+    margin: 0 20px;
+ }
+
+ .locations p {
+    margin-bottom: 1.8rem;
+ }
+
+  /* Contact Us */
+
+.contact {
+    height: 200px;
+}
+
+footer {
+    margin: 0 20px;
+}
